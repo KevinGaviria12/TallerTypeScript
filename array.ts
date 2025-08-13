@@ -37,3 +37,26 @@ console.log(nombre[2]);
 console.log(nombre[3]);
 console.log(nombre[4]);*/
 
+/*Investigue: cómo eliminar elementos de un array, agregar elementos, leer y actualizar elementos.
+Implemente ejemplos prácticos.*/
+
+let numero: number[] = [10, 20, 30, 40];
+
+// Agregar elementos
+numero.push(50); // Agrega al final
+numero.unshift(5); // Agrega al inicio
+
+// Leer elementos
+console.log(numero[0]); // Lee el primer elemento
+console.log(numero[2]); // Lee el tercer elemento
+
+// Actualizar elementos
+numero[1] = 15; // Cambia el segundo elemento a 15
+
+// Eliminar elementos
+numero.pop(); // Elimina el último elemento
+numero.shift(); // Elimina el primer elemento
+numero.splice(1, 1); // Elimina un elemento en la posición 1
+
+console.log(numero); // Muestra el array final
+
